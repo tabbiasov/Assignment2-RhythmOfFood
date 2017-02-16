@@ -6559,6 +6559,16 @@ button.close {
     font-weight: bold;
     font-style: italic;
     font-size: 1em;
+    justify-content: center;
+}
+.blockquote>img{
+ 
+  padding: 0 10px;
+  text-align: center;
+  display:block;
+  float: left;
+  margin-right:10px; 
+
 }
 @-ms-viewport {
   width: device-width;
