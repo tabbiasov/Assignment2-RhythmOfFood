@@ -9,6 +9,9 @@
     <meta name="author" content="">
 
     <title>The Rhythm of Food - Critical Overview</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="sss/sss.min.js"></script>
+    <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
 
 
     <!-- Bootstrap core CSS -->
@@ -23,7 +26,17 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../bootstrap/ie-emulation-modes-warning.js"></script>
-
+    <script>
+      jQuery(function($) {
+        $('.slider').sss({
+          slideShow : false, // Set to false to prevent SSS from automatically animating.
+          startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+          transition : 400, // Length (in milliseconds) of the fade transition.
+          speed : 8000, // Slideshow speed in milliseconds.
+          showNav : true // Set to false to hide navigation arrows.
+        });
+      });
+    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -42,7 +55,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Assignment 2: "The Rhythm of Food" Project Review</a>
+          <a class="navbar-brand" href="index.html">The Rhythm of Food: A Review</a>
         </div>
 
       </div>
@@ -55,80 +68,108 @@
             <li><a href="wbpg01.html">Introduction<span class="sr-only">(current)</span></a></li>
             <li><a href="usexp.html">User Experience</a></li>
             <li class="active"><a href="crit.html">Critical Overview</a></li>
-            <li><a href="next.html">What's next?</a></li>
           </ul>
 
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Critical Overview</h1>
-          <div>
           <p class="blockquote">
           <img src="../img/nathan.jpg" width=15% style="text-align: center;">
           <br>
           <br>
           "Fun Stuff" - Nathan Yau, FlowingData
           </p>
-          <div>
 
           <br>
           <br>
 
-
+        </div>
+          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h2 class="sub-header">Is this a good visualization project?</h2>
-          <p>
-          Hence, It doesn’t speak of any important causes or issues. It is made:
+          <div style="width: 40%; float: left"><p>
+          First of all, the project doesn’t speak of any important causes or issues.
+          It is made:
           <p>
           1) For fun  <br>
           2) To showcase how unconventional visualization can reveal interesting patterns about some cultural phenomena</p>
           <p>
           It is important to note here that the seasonality in food searches indeed conveys a message about cultural aspects of eating habits. This is emphasised by putting important holidays on the chart.
           </p>
+        </div>
+          <div class="slider" style="width: 50%; float: right">
+            <img src="../img/crit-images/crop/15.jpg" style="float: left">
+            <img src="../img/crit-images/crop/14.jpg" style="float: left">
+          </div>
+        </div>
 
-          <h2 class="sub-header">Is the visualization approach novel to any degree?</h2>
-          <p> 
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <h2 class="sub-header">
+          Is the visualization approach novel to any degree?</h2>
+          <div style="width: 50%; float: right"> <p>
           Well, it seems so.</p>
-          <p> 
-          It compresses yearly time-series data into a single circular plot: there is no kind of time-series chart layout, that captures several years of data in one same radial plane, using color to differentiate between years.<br></p>
+          <p>
+          It compresses yearly time-series data into a single circular plot: there seems to be no similar time-series chart layout previously published, that captures several years of data in one same radial plane, using color to differentiate between years.<br></p>
 
           Of course this is no breakthrough, because different parts of that approach appear all over.
           </p>
+        </div>
+        <div class="slider" style="width: 40%; float: left">
+          <img src="../img/crit-images/crop-ts/1.jpg" style="float: right">
+          <img src="../img/crit-images/crop-ts/2.jpg" style="float: right">
+        </div>
+      </div>
+
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
           <h2 class="sub-header">Does the main chart layout work well?</h2>
-           <p> 
+           <p>
+          <div style="width: 40%; float: left"> <p>
            1) Gives a better macro reading of information, seeing more seasonality patterns at once becomes possible: Example: germany kale -- we can see seasonality pattern that is not evident from time series charts.</p>
-           <p> 
-           2) On the other hand, the dynamics of aggregate interest becomes less evident: Example: japan. Interest in kale was going down until 2012 and after it started to revive. We hardly can see this from the main circular picture.  Solution -- Using interactivity to explore different years separately. 
+           <p>
+           2) On the other hand, the dynamics of aggregate interest becomes less evident: Example: japan. Interest in kale was going down until 2012 and after it started to revive. We hardly can see this from the main circular picture.  Solution -- Using interactivity to explore different years separately.
            </p>
+         </div>
+         <div class="slider" style="width: 50%; float: right">
+           <img src="../img/crit-images/crop/1.jpg" style="float: right">
+           <img src="../img/crit-images/crop/3.jpg" style="float: right">
+           <img src="../img/crit-images/crop/4.jpg" style="float: right">
+           <img src="../img/crit-images/crop/5.jpg" style="float: right">
+           <img src="../img/crit-images/crop/6.jpg" style="float: right">
+           <img src="../img/crit-images/crop/7.jpg" style="float: right">
+           <img src="../img/crit-images/crop/8.jpg" style="float: right">
+           <img src="../img/crit-images/crop/9.jpg" style="float: right">
+           <img src="../img/crit-images/crop/10.jpg" style="float: right">
+           <img src="../img/crit-images/crop/11.jpg" style="float: right">
+           <img src="../img/crit-images/crop/12.jpg" style="float: right">
+           <img src="../img/crit-images/crop/13.jpg" style="float: right">
+         </div>
+       </div>
+
+
+         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
            <h2 class="sub-header">Other design solutions?</h2>
            <div>
           <p class="blockquote">
           <img src="../img/nathan.jpg" width=15% style="text-align: center;">
           <br>
-          "There are also a lot of thoughtful design touches that you might notice. A few off the top: annotation for the more trendy foods, notes for holidays or specific events that relate to the topic you view, and segments sized for area as you move from the center of the circle to the edges to compensate for visual attention." 
-          <br> 
+          "There are also a lot of thoughtful design touches that you might notice. A few off the top: annotation for the more trendy foods, notes for holidays or specific events that relate to the topic you view, and segments sized for area as you move from the center of the circle to the edges to compensate for visual attention."
+          <br>
           Nathan Yau, FlowingData </p>
 
 
 
-          
+
 
 
         </div>
       </div>
+      </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Dashboard Template for Bootstrap_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./Dashboard Template for Bootstrap_files/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="./Dashboard Template for Bootstrap_files/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./Dashboard Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+
 
 
 </body></html>
