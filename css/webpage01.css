@@ -4487,9 +4487,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
+    display: none;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
+  }
+  .navbar-form {
+    float: right !important;
+    font-size: medium;
+    margin-right: -15px;
+    display: inline;
   }
 }
 .navbar-default {
@@ -6555,7 +6562,7 @@ button.close {
     border-left: 5px solid #30FC27;
     margin: 1.5em 10px;
     padding: 0 10px;
-    quotes: "\201C""\201D""\2018""\2019";   
+    quotes: "\201C""\201D""\2018""\2019";
     font-weight: bold;
     font-style: italic;
     font-size: 1em;
@@ -6566,7 +6573,7 @@ button.close {
   text-align: center;
   display:block;
   float: left;
-  margin-right:10px; 
+  margin-right:10px;
 
 }
 @-ms-viewport {

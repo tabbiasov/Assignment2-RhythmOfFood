@@ -1,0 +1,43 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.navbar-inverse {
+
+}
+
+.navbar-header {
+    margin-right: 0;
+    margin-left: 45%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+		font-size: 700;
+		color: white;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.full {
+  background: url(../img/IntrotoWebpg.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: contain;
+	background-color: #3bcb5a;
+}
