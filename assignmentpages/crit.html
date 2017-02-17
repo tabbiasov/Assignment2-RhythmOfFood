@@ -15,6 +15,7 @@
 
 
     <!-- Bootstrap core CSS -->
+
     <link href="../css/webpage01.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -55,7 +56,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">The Rhythm of Food: A Review</a>
+          <a class="navbar-brand" href="wbpg01.html">The Rhythm of Food: A Review</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="wbpg01.html">Introduction</a></li>
+            <li><a href="usexp.html">User Experience</a></li>
+            <li><a href="crit.html">Critical Overview</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+              <div style="color:white; margin-top: 5px;"><i>Timur Abbiasov, Ying Huang, Carmelo Ignaccolo, Jesfae John</i></div>
+          </form>
         </div>
 
       </div>
@@ -72,6 +83,7 @@
 
 
         </div>
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Critical Overview</h1>
           <p class="blockquote">
@@ -86,52 +98,75 @@
 
         </div>
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="row-md-12">
+
           <h2 class="sub-header">Is this a good visualization project?</h2>
-          <div style="width: 40%; float: left"><p>
+        </div>
+        <div class="row-md-12">
+
+        <div class="col-md-6">
+          <div style="width: 100%; float: left"><p>
           First of all, the project doesn’t speak of any important causes or issues.
           It is made:
-          <p>
-          1) For fun  <br>
-          2) To showcase how unconventional visualization can reveal interesting patterns about some cultural phenomena</p>
-          <p>
+          <ol>
+          <li>For fun  </li>
+           <li>To showcase how unconventional visualization can reveal interesting patterns about some cultural phenomena</li>
+         </ol>
           It is important to note here that the seasonality in food searches indeed conveys a message about cultural aspects of eating habits. This is emphasised by putting important holidays on the chart.
-          </p>
         </div>
-          <div class="slider" style="width: 50%; float: right">
+        </div>
+        <div class="col-md-6">
+          <div class="slider" style="width: 90%; float: right">
             <img src="../img/crit-images/crop/15.jpg" style="float: left">
             <img src="../img/crit-images/crop/14.jpg" style="float: left">
           </div>
         </div>
+      </div>
+    </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-          <h2 class="sub-header">
+          <div class="row-md-12">
+            <h2 class="sub-header">
           Is the visualization approach novel to any degree?</h2>
-          <div style="width: 50%; float: right"> <p>
+        </div>
+        <div class="row-md-12">
+          <div class="col-md-5">
+          <div class="slider" style="width: 100%; float: left">
+            <img src="../img/crit-images/crop-ts/1.jpg" style="float: right">
+            <img src="../img/crit-images/crop-ts/2.jpg" style="float: right">
+          </div>
+        </div>
+          <div class="col-md-7">
+          <div style="width: 100%; float: right"> <p>
           Well, it seems so.</p>
           <p>
           It compresses yearly time-series data into a single circular plot: there seems to be no similar time-series chart layout previously published, that captures several years of data in one same radial plane, using color to differentiate between years.<br></p>
 
-          Of course this is no breakthrough, because different parts of that approach appear all over.
+          Of course, this is no breakthrough, because different parts of that approach appear all over.
           </p>
         </div>
-        <div class="slider" style="width: 40%; float: left">
-          <img src="../img/crit-images/crop-ts/1.jpg" style="float: right">
-          <img src="../img/crit-images/crop-ts/2.jpg" style="float: right">
         </div>
       </div>
 
+      </div>
+
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="row-md-12">
 
           <h2 class="sub-header">Does the main chart layout work well?</h2>
-           <p>
-          <div style="width: 40%; float: left"> <p>
-           1) Gives a better macro reading of information, seeing more seasonality patterns at once becomes possible: Example: germany kale -- we can see seasonality pattern that is not evident from time series charts.</p>
-           <p>
-           2) On the other hand, the dynamics of aggregate interest becomes less evident: Example: japan. Interest in kale was going down until 2012 and after it started to revive. We hardly can see this from the main circular picture.  Solution -- Using interactivity to explore different years separately.
-           </p>
+        </div>
+          <div class="col-md-6">
+          <div style="width: 100%; float: left"> <ol>
+            <li>Gives a better macro reading of information, seeing more seasonality patterns at once becomes possible. <p>Example: Germany, Kale — we can see seasonality pattern that is not evident from time series charts.</p></li>
+           <li> On the other hand, the dynamics of aggregate interest becomes less evident: Example: japan. Interest in kale was going down until 2012 and after it started to revive. We hardly can see this from the main circular picture.  Solution: using interactivity to explore different years separately.</li>
+         </ol>
+         Conclusion: good for seasonal patterns, not so good for inter-year patterns (Kale in Japan).
+
          </div>
-         <div class="slider" style="width: 50%; float: right">
+         </div>
+         <div class="col-md-6">
+         <div class="slider" style="width: 90%; float: right">
            <img src="../img/crit-images/crop/1.jpg" style="float: right">
            <img src="../img/crit-images/crop/3.jpg" style="float: right">
            <img src="../img/crit-images/crop/4.jpg" style="float: right">
@@ -146,11 +181,12 @@
            <img src="../img/crit-images/crop/13.jpg" style="float: right">
          </div>
        </div>
+       </div>
 
 
          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-           <h2 class="sub-header">Other design solutions?</h2>
+           <h2 class="sub-header">Other good design solutions?</h2>
            <div>
           <p class="blockquote">
           <img src="../img/nathan.jpg" width=15% style="text-align: center;">
@@ -170,6 +206,12 @@
     </div>
 
 
-
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../bootstrap/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap/ie10-viewport-bug-workaround.js"></script>
 
 </body></html>
